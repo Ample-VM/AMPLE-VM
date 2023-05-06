@@ -28,3 +28,5 @@ include_directories("${CMAKE_CURRENT_LIST_DIR}/include")
 include("${CMAKE_CURRENT_LIST_DIR}/src/CMakeLists.txt")
 
 add_executable(AMPLE-VM "${AMPLE_VM_SRC}")
+
+target_link_libraries(AMPLE-VM AMPLE)
