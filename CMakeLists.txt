@@ -25,4 +25,6 @@ project(AMPLE-VM VERSION 0.3.0 LANGUAGES C)
 
 include_directories("${CMAKE_CURRENT_LIST_DIR}/include")
 
+include("${CMAKE_CURRENT_LIST_DIR}/src/CMakeLists.txt")
+
 add_executable(AMPLE-VM "${AMPLE_VM_SRC}")
